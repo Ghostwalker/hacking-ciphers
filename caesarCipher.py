@@ -1,6 +1,6 @@
 # Caesar Cipher
 # http://inventwithpython.com/hacking (BSD Licensed)
-#this program can encrypt a plaintext or decrypt a cryptogram by using the simple algorithm devised by Julius Caesar
+# this program can encrypt a plaintext or decrypt a cryptogram by using the simple algorithm devised by Julius Caesar
 
 
 # the string to be encrypted or decrypted
