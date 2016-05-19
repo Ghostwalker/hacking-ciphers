@@ -1,5 +1,6 @@
-# hacking-ciphers
-Copy-paste exercises for  Al Sweigart's book "Hacking Secret Ciphers with Python", might follow up with Zed Shaw's "Learn Python the Hard Way".
+hacking-ciphers
+#Copy-paste exercises for  Al Sweigart's book "Hacking Secret Ciphers with Python", might follow up with Zed Shaw's "Learn Python the Hard Way". Written for python 3
+
 
 message = 'Three can keep a secret, if two of them are dead.'
 translated = ''
