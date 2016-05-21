@@ -1,4 +1,4 @@
-# Transposition Cipher Test, it's an autotest programming
+# Transposition Cipher Test, it's an automated testing program designed for the Transposition Cipher
 
 import random, sys, transpositionEncrypt, transpositionDecrypt
 
