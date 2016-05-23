@@ -1,7 +1,7 @@
 # Transposition Cipher Hacker
 # http://inventwithpython.com/hacking (BSD Licensed)
 
-import pyperclip, detectEnglish, transpositionDecrypt
+import detectEnglish, transpositionDecrypt
 
 def main():
     # You might want to copy & paste this text from the source code at
@@ -13,9 +13,7 @@ def main():
     if hackedMessage == None:
         print('Failed to hack encryption.')
     else:
-        print('Copying hacked message to clipboard:')
         print(hackedMessage)
-        pyperclip.copy(hackedMessage)
 
 
 def hackTransposition(message):
