@@ -1,7 +1,7 @@
 # Affine Cipher
 # http://inventwithpython.com/hacking (BSD Licensed)
 
-import sys, pyperclip, cryptomath, random
+import sys, cryptomath, random
 SYMBOLS = """ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~""" # note the space at the front
 
 
@@ -17,7 +17,6 @@ def main():
     print('Key: %s' % (myKey))
     print('%sed text:' % (myMode.title()))
     print(translated)
-    pyperclip.copy(translated)
     print('Full %sed text copied to clipboard.' % (myMode))
 
 
