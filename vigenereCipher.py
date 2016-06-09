@@ -1,7 +1,6 @@
 # Vigenere Cipher (Polyalphabetic Substitution Cipher)
 # http://inventwithpython.com/hacking (BSD Licensed)
 
-import pyperclip
 
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
@@ -18,7 +17,6 @@ def main():
 
     print('%sed message:' % (myMode.title()))
     print(translated)
-    pyperclip.copy(translated)
     print()
     print('The message has been copied to the clipboard.')
 
